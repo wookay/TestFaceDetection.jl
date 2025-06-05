@@ -21,9 +21,6 @@ jobs:
         julia-version: [1.11.5]         # April 14, 2025
         julia-arch: [x64]
         os: [ubuntu-latest]
-        include:
-          - julia-version: nightly
-            os: ubuntu-latest
     steps:
     - uses: actions/checkout@v4
     - uses: julia-actions/setup-julia@v1
